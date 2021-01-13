@@ -1,0 +1,6 @@
+framework module HelloJunaidSDK {
+  umbrella header "HelloJunaidSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

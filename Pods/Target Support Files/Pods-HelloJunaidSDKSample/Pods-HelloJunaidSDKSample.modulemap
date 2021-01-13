@@ -1,0 +1,6 @@
+framework module Pods_HelloJunaidSDKSample {
+  umbrella header "Pods-HelloJunaidSDKSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

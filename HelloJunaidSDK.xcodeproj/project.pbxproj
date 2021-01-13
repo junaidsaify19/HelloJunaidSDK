@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,14 @@
 		2A67B3B225AEE5C800DD0AB9 /* HelloJunaidSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A67B3B125AEE5C800DD0AB9 /* HelloJunaidSDKTests.swift */; };
 		2A67B3B425AEE5C800DD0AB9 /* HelloJunaidSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A67B39E25AEE2B700DD0AB9 /* HelloJunaidSDK.framework */; };
 		2A67B3BB25AF039C00DD0AB9 /* HelloJunaidSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2A67B3BA25AF039C00DD0AB9 /* HelloJunaidSDK.podspec */; };
+		2A67B3C325AF11F300DD0AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A67B3C225AF11F300DD0AB9 /* AppDelegate.swift */; };
+		2A67B3C525AF11F300DD0AB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A67B3C425AF11F300DD0AB9 /* SceneDelegate.swift */; };
+		2A67B3C725AF11F300DD0AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A67B3C625AF11F300DD0AB9 /* ViewController.swift */; };
+		2A67B3CA25AF11F300DD0AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A67B3C825AF11F300DD0AB9 /* Main.storyboard */; };
+		2A67B3CC25AF11F600DD0AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A67B3CB25AF11F600DD0AB9 /* Assets.xcassets */; };
+		2A67B3CF25AF11F600DD0AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A67B3CD25AF11F600DD0AB9 /* LaunchScreen.storyboard */; };
+		2A67B3D525AF131400DD0AB9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2A67B3D425AF131400DD0AB9 /* Podfile */; };
+		F1A3814451295261C8E53915 /* Pods_HelloJunaidSDKSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017B934C7DD6ED0784FAF299 /* Pods_HelloJunaidSDKSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017B934C7DD6ED0784FAF299 /* Pods_HelloJunaidSDKSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloJunaidSDKSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A67B39E25AEE2B700DD0AB9 /* HelloJunaidSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloJunaidSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A67B3A125AEE2B700DD0AB9 /* HelloJunaidSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloJunaidSDK.h; sourceTree = "<group>"; };
 		2A67B3A225AEE2B700DD0AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,7 +41,18 @@
 		2A67B3AF25AEE5C800DD0AB9 /* HelloJunaidSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloJunaidSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A67B3B125AEE5C800DD0AB9 /* HelloJunaidSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloJunaidSDKTests.swift; sourceTree = "<group>"; };
 		2A67B3B325AEE5C800DD0AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A67B3BA25AF039C00DD0AB9 /* HelloJunaidSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HelloJunaidSDK.podspec; sourceTree = "<group>"; };
+		2A67B3BA25AF039C00DD0AB9 /* HelloJunaidSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HelloJunaidSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2A67B3C025AF11F300DD0AB9 /* HelloJunaidSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloJunaidSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A67B3C225AF11F300DD0AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A67B3C425AF11F300DD0AB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2A67B3C625AF11F300DD0AB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A67B3C925AF11F300DD0AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A67B3CB25AF11F600DD0AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A67B3CE25AF11F600DD0AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A67B3D025AF11F600DD0AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A67B3D425AF131400DD0AB9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		430AED37B581C70C2CC30C0B /* Pods-HelloJunaidSDKSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloJunaidSDKSample.release.xcconfig"; path = "Target Support Files/Pods-HelloJunaidSDKSample/Pods-HelloJunaidSDKSample.release.xcconfig"; sourceTree = "<group>"; };
+		BB77D7EE4D125095609CA39B /* Pods-HelloJunaidSDKSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloJunaidSDKSample.debug.xcconfig"; path = "Target Support Files/Pods-HelloJunaidSDKSample/Pods-HelloJunaidSDKSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,16 +71,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2A67B3BD25AF11F300DD0AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A3814451295261C8E53915 /* Pods_HelloJunaidSDKSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2A67B39425AEE2B700DD0AB9 = {
 			isa = PBXGroup;
 			children = (
+				2A67B3D425AF131400DD0AB9 /* Podfile */,
 				2A67B3BA25AF039C00DD0AB9 /* HelloJunaidSDK.podspec */,
 				2A67B3A025AEE2B700DD0AB9 /* HelloJunaidSDK */,
 				2A67B3B025AEE5C800DD0AB9 /* HelloJunaidSDKTests */,
+				2A67B3C125AF11F300DD0AB9 /* HelloJunaidSDKSample */,
 				2A67B39F25AEE2B700DD0AB9 /* Products */,
+				5509B9642060D6EEB5919E05 /* Pods */,
+				6ADB53F4460F44F79E563883 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +101,7 @@
 			children = (
 				2A67B39E25AEE2B700DD0AB9 /* HelloJunaidSDK.framework */,
 				2A67B3AF25AEE5C800DD0AB9 /* HelloJunaidSDKTests.xctest */,
+				2A67B3C025AF11F300DD0AB9 /* HelloJunaidSDKSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +123,37 @@
 				2A67B3B325AEE5C800DD0AB9 /* Info.plist */,
 			);
 			path = HelloJunaidSDKTests;
+			sourceTree = "<group>";
+		};
+		2A67B3C125AF11F300DD0AB9 /* HelloJunaidSDKSample */ = {
+			isa = PBXGroup;
+			children = (
+				2A67B3C225AF11F300DD0AB9 /* AppDelegate.swift */,
+				2A67B3C425AF11F300DD0AB9 /* SceneDelegate.swift */,
+				2A67B3C625AF11F300DD0AB9 /* ViewController.swift */,
+				2A67B3C825AF11F300DD0AB9 /* Main.storyboard */,
+				2A67B3CB25AF11F600DD0AB9 /* Assets.xcassets */,
+				2A67B3CD25AF11F600DD0AB9 /* LaunchScreen.storyboard */,
+				2A67B3D025AF11F600DD0AB9 /* Info.plist */,
+			);
+			path = HelloJunaidSDKSample;
+			sourceTree = "<group>";
+		};
+		5509B9642060D6EEB5919E05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB77D7EE4D125095609CA39B /* Pods-HelloJunaidSDKSample.debug.xcconfig */,
+				430AED37B581C70C2CC30C0B /* Pods-HelloJunaidSDKSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6ADB53F4460F44F79E563883 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				017B934C7DD6ED0784FAF299 /* Pods_HelloJunaidSDKSample.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +206,25 @@
 			productReference = 2A67B3AF25AEE5C800DD0AB9 /* HelloJunaidSDKTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2A67B3BF25AF11F300DD0AB9 /* HelloJunaidSDKSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A67B3D125AF11F600DD0AB9 /* Build configuration list for PBXNativeTarget "HelloJunaidSDKSample" */;
+			buildPhases = (
+				8BB96F0E85C9FAF217933B11 /* [CP] Check Pods Manifest.lock */,
+				2A67B3BC25AF11F300DD0AB9 /* Sources */,
+				2A67B3BD25AF11F300DD0AB9 /* Frameworks */,
+				2A67B3BE25AF11F300DD0AB9 /* Resources */,
+				45241085E09D3D9133EC5805 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloJunaidSDKSample;
+			productName = HelloJunaidSDKSample;
+			productReference = 2A67B3C025AF11F300DD0AB9 /* HelloJunaidSDKSample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -157,6 +240,9 @@
 						LastSwiftMigration = 1170;
 					};
 					2A67B3AE25AEE5C800DD0AB9 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					2A67B3BF25AF11F300DD0AB9 = {
 						CreatedOnToolsVersion = 11.7;
 					};
 				};
@@ -176,6 +262,7 @@
 			targets = (
 				2A67B39D25AEE2B700DD0AB9 /* HelloJunaidSDK */,
 				2A67B3AE25AEE5C800DD0AB9 /* HelloJunaidSDKTests */,
+				2A67B3BF25AF11F300DD0AB9 /* HelloJunaidSDKSample */,
 			);
 		};
 /* End PBXProject section */
@@ -185,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A67B3D525AF131400DD0AB9 /* Podfile in Resources */,
 				2A67B3BB25AF039C00DD0AB9 /* HelloJunaidSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +284,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2A67B3BE25AF11F300DD0AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A67B3CF25AF11F600DD0AB9 /* LaunchScreen.storyboard in Resources */,
+				2A67B3CC25AF11F600DD0AB9 /* Assets.xcassets in Resources */,
+				2A67B3CA25AF11F300DD0AB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45241085E09D3D9133EC5805 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloJunaidSDKSample/Pods-HelloJunaidSDKSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloJunaidSDKSample/Pods-HelloJunaidSDKSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloJunaidSDKSample/Pods-HelloJunaidSDKSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BB96F0E85C9FAF217933B11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloJunaidSDKSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A67B39A25AEE2B700DD0AB9 /* Sources */ = {
@@ -215,6 +355,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2A67B3BC25AF11F300DD0AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A67B3C725AF11F300DD0AB9 /* ViewController.swift in Sources */,
+				2A67B3C325AF11F300DD0AB9 /* AppDelegate.swift in Sources */,
+				2A67B3C525AF11F300DD0AB9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -224,6 +374,25 @@
 			targetProxy = 2A67B3B525AEE5C800DD0AB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A67B3C825AF11F300DD0AB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A67B3C925AF11F300DD0AB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A67B3CD25AF11F600DD0AB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A67B3CE25AF11F600DD0AB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2A67B3A425AEE2B700DD0AB9 /* Debug */ = {
@@ -429,6 +598,42 @@
 			};
 			name = Release;
 		};
+		2A67B3D225AF11F600DD0AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB77D7EE4D125095609CA39B /* Pods-HelloJunaidSDKSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloJunaidSDKSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.saify.hellojunaidsdksample.HelloJunaidSDKSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A67B3D325AF11F600DD0AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430AED37B581C70C2CC30C0B /* Pods-HelloJunaidSDKSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloJunaidSDKSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.saify.hellojunaidsdksample.HelloJunaidSDKSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -455,6 +660,15 @@
 			buildConfigurations = (
 				2A67B3B825AEE5C800DD0AB9 /* Debug */,
 				2A67B3B925AEE5C800DD0AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A67B3D125AF11F600DD0AB9 /* Build configuration list for PBXNativeTarget "HelloJunaidSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A67B3D225AF11F600DD0AB9 /* Debug */,
+				2A67B3D325AF11F600DD0AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

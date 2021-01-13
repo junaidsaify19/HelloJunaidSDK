@@ -1,0 +1,16 @@
+PODS:
+  - HelloJunaidSDK (0.0.1)
+
+DEPENDENCIES:
+  - HelloJunaidSDK (from `.`)
+
+EXTERNAL SOURCES:
+  HelloJunaidSDK:
+    :path: "."
+
+SPEC CHECKSUMS:
+  HelloJunaidSDK: 41f649c2bead41c7c5eadf2ac3605ee438e1e875
+
+PODFILE CHECKSUM: 445aa9d9946458b761898ee8e55bc7c911b71b16
+
+COCOAPODS: 1.9.3

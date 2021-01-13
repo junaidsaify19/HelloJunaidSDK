@@ -1,0 +1,20 @@
+{
+  "name": "HelloJunaidSDK",
+  "version": "0.0.1",
+  "summary": "This is a pod creation tutorial that I am making.",
+  "description": "iOS SDK for Hello Junaid",
+  "homepage": "https://github.com/junaidsaify19",
+  "license": "MIT",
+  "authors": "Junaid Saify",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "git": "https://github.com/junaidsaify19/HelloJunaidSDK.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "HelloJunaidSDK/**/*.{h,m,swift}",
+  "public_header_files": "HelloJunaidSDK/**/*.h",
+  "swift_version": "5.0"
+}
