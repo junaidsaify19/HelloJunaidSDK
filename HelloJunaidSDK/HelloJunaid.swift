@@ -13,7 +13,7 @@ public class HelloJunaid{
     
     public init(){}
     
-    public func hello(to whome: String) -> String {
-        return "Hello \(whome)"
+    public func hello(to whom: String) -> String {
+        return "Hello \(whom)"
     }
 }
