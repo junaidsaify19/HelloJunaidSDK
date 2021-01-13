@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.swift_version   = "5.0"
 
-  spec.source       = { :git => "https://github.com/junaidsaify19/HelloJunaidSDK",
+  spec.source       = { :git => "https://github.com/junaidsaify19/HelloJunaidSDK.git",
                         :tag => "#{spec.version}"
                        }
 
