@@ -17,5 +17,9 @@ public class HelloJunaid{
         return "Hello \(whom)"
     }
     
+    public func goodMorning(to whom:String) -> String {
+       return "Good Morning \(whom)"
+    }
+    
     // Additional methods
 }
