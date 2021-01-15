@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "GluAnalytics"
+  spec.name         = "HelloJunaidSDK"
   spec.version      = "0.0.2"
   spec.summary      = "This is a pod creation tutorial that I am making."
 
