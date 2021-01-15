@@ -47,4 +47,12 @@ class HelloJunaidSDKTests: XCTestCase {
            
            
        }
+    
+    func testGoodEveningJunaid(){
+              let hj = HelloJunaid()
+              
+              XCTAssertEqual(hj.goodEvening(to: "JamesBond"), "Good Evening JamesBond")
+              
+              
+          }
 }

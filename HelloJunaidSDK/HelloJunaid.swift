@@ -21,5 +21,9 @@ public class HelloJunaid{
        return "Good Morning \(whom)"
     }
     
+    public func goodEvening(to whom:String) -> String {
+          return "Good Evening \(whom)"
+       }
+    
     // Additional methods
 }
